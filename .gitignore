@@ -1,4 +1,5 @@
 .idea/
+.github/
 config.json
 OverwatchTokenFarmer.spec
 

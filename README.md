@@ -1,3 +1,16 @@
+# Why this fork ?
+
+The main reason for this fork is to build a Docker image without arguments.
+
+To build the image:
+* fork this repo
+* build the image using `docker build -t ow-league-tokens .`. You do not need to modify the Dockerfile
+* run the image using `docker run --rm -d ow-league-tokens:latest nomenu --owl --owc --ids id1 id2...`
+
+Note: the `docker-compose.yml` file is not altered in this fork.
+
+You can also pull this dockerhub image: `docker pull logscl/ow-league-tokens`
+
 # OWL Tokens and Contenders Skins farmer bot
 This is a command line bot that "watches" league and contenders streams for you, without the need to worry about
 missing some.
